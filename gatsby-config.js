@@ -3,7 +3,6 @@ module.exports = {
     title: 'Joseph Race',
     description: 'Web Developer specialising in Front-End Development & JavaScript Full-Stack',
     links: {
-      twitter: 'https://twitter.com/jarace87',
       github: 'https://github.com/josephrace',
       linkedin: 'https://www.linkedin.com/in/josephrace',
     },
