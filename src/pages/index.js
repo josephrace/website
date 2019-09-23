@@ -28,7 +28,6 @@ export const query = graphql`
       siteMetadata {
         title
         links {
-          twitter
           github
           linkedin
         }
