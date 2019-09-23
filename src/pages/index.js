@@ -13,8 +13,7 @@ const IndexPage = ({ data }) => {
         Full-Stack.
       </p>
       <p>
-        Find me on <OutboundLink href={links.twitter}>Twitter</OutboundLink>,{' '}
-        <OutboundLink href={links.github}>GitHub</OutboundLink> or{' '}
+        Find me on <OutboundLink href={links.github}>GitHub</OutboundLink> or{' '}
         <OutboundLink href={links.linkedin}>LinkedIn</OutboundLink>
       </p>
     </div>
