@@ -9,8 +9,7 @@ const IndexPage = ({ data }) => {
     <div style={{ marginTop: '100px' }}>
       <h1>{siteMetadata.title}</h1>
       <p>
-        Web Developer specialising in Front-End Development & JavaScript
-        Full-Stack.
+        Full-stack web developer with a front-end focus.
       </p>
       <p>
         Find me on <OutboundLink href={links.github}>GitHub</OutboundLink> or{' '}
