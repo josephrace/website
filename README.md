@@ -1,3 +1,3 @@
 # josephrace
 
-Personal static site
+Personal website built with Gatsby

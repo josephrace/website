@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Joseph Race',
-    description: 'Web Developer specialising in Front-End Development & JavaScript Full-Stack',
+    description: 'Full Stack web developer',
     links: {
       github: 'https://github.com/josephrace',
       linkedin: 'https://www.linkedin.com/in/josephrace',
@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Roboto`]
-      }
+        fonts: [`Roboto`],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
