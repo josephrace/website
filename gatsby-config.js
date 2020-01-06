@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Joseph Race',
-    description: 'Full Stack web developer',
+    description: 'Full-stack web developer with a front-end focus',
     links: {
       github: 'https://github.com/josephrace',
       linkedin: 'https://www.linkedin.com/in/josephrace',

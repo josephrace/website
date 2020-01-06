@@ -10,14 +10,13 @@ const Header = () => {
       site {
         siteMetadata {
           title
-          links {
-            github
-            linkedin
-          }
+          description
         }
       }
     }
   `);
+
+  console.log(siteMetadata);
 
   return (
     <Helmet
