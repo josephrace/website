@@ -23,8 +23,10 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className="container" style={{ marginTop: '100px' }}>
-        <h1>{siteMetadata.title}</h1>
-        <p>Full-stack web developer with a front-end focus.</p>
+        <h1 className="title">{siteMetadata.title}</h1>
+        <h2 className="subtitle">
+          Full-stack web developer with a front-end focus.
+        </h2>
         <p>
           Find me on{' '}
           <OutboundLink href={siteMetadata.links.github}>GitHub</OutboundLink>{' '}

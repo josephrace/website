@@ -1,0 +1,46 @@
+html {
+  font-family: sans-serif;
+  color: #111111;
+  background-color: #fefefe;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Zilla Slab';
+}
+
+a {
+  color: #111111;
+}
+
+a:hover {
+  color: #666666;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 40px;
+}
