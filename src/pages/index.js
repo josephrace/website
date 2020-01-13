@@ -11,6 +11,7 @@ const IndexPage = () => {
       site {
         siteMetadata {
           title
+          description
           links {
             github
             linkedin
@@ -24,9 +25,7 @@ const IndexPage = () => {
     <Layout>
       <div className="container" style={{ marginTop: '100px' }}>
         <h1 className="title">{siteMetadata.title}</h1>
-        <h2 className="subtitle">
-          Full-stack web developer with a front-end focus.
-        </h2>
+        <h2 className="subtitle">{siteMetadata.description}</h2>
         <p>
           Find me on{' '}
           <OutboundLink href={siteMetadata.links.github}>GitHub</OutboundLink>{' '}
