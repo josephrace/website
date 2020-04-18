@@ -1,7 +1,7 @@
+/** @jsx jsx */
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import { Text, Flex, useColorMode } from 'theme-ui';
-import Link from './Link';
+import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Button, Flex, useColorMode, jsx } from 'theme-ui';
 
 const Header: React.FC = () => {
   const {
@@ -28,13 +28,20 @@ const Header: React.FC = () => {
   };
 
   return (
-    <Flex sx={{ justifyContent: 'space-between', mt: 4, mb: 5 }}>
-      <Link to="/" sx={{ textDecoration: 'none' }}>
+    <Flex
+      sx={{
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        mt: 4,
+        mb: 5,
+      }}
+    >
+      <Link to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
         {siteMetadata.title} - {siteMetadata.description}
       </Link>
-      <Text onClick={toggleColorMode}>
+      <Button onClick={toggleColorMode} sx={{ py: 1, fontFamily: 'body' }}>
         {colorMode === 'default' ? 'Dark' : 'Light'}
-      </Text>
+      </Button>
     </Flex>
   );
 };

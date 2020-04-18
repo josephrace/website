@@ -16,19 +16,22 @@ export default {
   },
   lineHeights: {
     body: 1.5,
-    heading: 1.125,
+    heading: 1.2,
   },
   sizes: {
     container: '1280px',
+  },
+  buttons: {
+    primary: {
+      color: 'background',
+      bg: 'text',
+    },
   },
   styles: {
     root: {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
-      a: {
-        color: 'text',
-      },
     },
   },
 };

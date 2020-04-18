@@ -1,11 +1,13 @@
+/** @jsx jsx */
 import React from 'react';
-import { Text, Box, Grid, Heading } from 'theme-ui';
+import { Text, Box, Grid, jsx } from 'theme-ui';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
 const IndexPage: React.FC = () => (
   <Layout>
-    <SEO title="Vegan fusce" />
+    <SEO title="Full-Stack Developer" />
     <Grid columns={[1, null, null, '4fr 1fr']} mb={5}>
       <Text
         sx={{
@@ -14,31 +16,59 @@ const IndexPage: React.FC = () => (
           fontFamily: 'heading',
         }}
       >
-        Usable <strong>accessible</strong> 🥑 simplify <strong>impact</strong>{' '}
-        💥 awareness collaborate equal open 📦 share explore{' '}
-        <strong>inclusive</strong>
+        Usability <strong>accessibility</strong> 🥑 <strong>inclusivity</strong>{' '}
+        innovation impact sharing equality <strong>openness</strong>
       </Text>
     </Grid>
-    <Grid columns={[1, null, null, 2]}>
+    <Grid columns={[1, null, 2]}>
       <Box>
-        <Heading mb={4}>Vegan fusce</Heading>
-        <Text mb={4} sx={{ lineHeight: 'body' }}>
-          Elementum porta porttitor nec leo amet quam artisan proin ornare amet
-          vitae arcu commodo urna artisan odio undefined. Eros morbi risus
-          bibendum ipsum you probably haven't heard of them vitae pellentesque
-          quam gravida bibendum arcu vulputate bicycle nulla amet.
-        </Text>
-        <Text mb={4} sx={{ lineHeight: 'body' }}>
-          Eros morbi risus bibendum ipsum you probably haven't heard of them
-          vitae pellentesque quam gravida bibendum arcu vulputate bicycle nulla
-          amet.
-        </Text>
-        <Text mb={4} sx={{ lineHeight: 'body' }}>
-          Elementum porta porttitor nec leo amet quam artisan proin ornare amet
-          vitae arcu commodo urna artisan odio undefined. Eros morbi risus
-          bibendum ipsum you probably haven't heard of them vitae pellentesque
-          quam gravida bibendum arcu vulputate bicycle nulla amet.
-        </Text>
+        <Box id="about" sx={{ mb: 5 }}>
+          <Text mb={3}>
+            As a full-stack developer I am passionate about building websites
+            and applications that have a meaningful impact on people's lives.
+            The words above represent a few things that I value and strive for
+            in building for the web and working in teams.
+          </Text>
+          <Text mb={3}>
+            <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">
+              React
+            </OutboundLink>
+            ,{' '}
+            <OutboundLink
+              sx={{ color: 'inherit' }}
+              href="https://www.typescriptlang.org/"
+            >
+              TypeScript
+            </OutboundLink>{' '}
+            &amp;{' '}
+            <OutboundLink sx={{ color: 'inherit' }} href="https://graphql.org/">
+              GraphQL
+            </OutboundLink>{' '}
+            are a few of the things I have been enjoyed working with over the
+            last few years. This site was built with{' '}
+            <OutboundLink
+              sx={{ color: 'inherit' }}
+              href="https://www.gatsbyjs.org/"
+            >
+              Gatsby
+            </OutboundLink>{' '}
+            using{' '}
+            <OutboundLink
+              sx={{ color: 'inherit' }}
+              href="https://theme-ui.com/"
+            >
+              Theme UI
+            </OutboundLink>{' '}
+            and is hosted on{' '}
+            <OutboundLink
+              sx={{ color: 'inherit' }}
+              href="https://www.netlify.com/"
+            >
+              Netlify
+            </OutboundLink>
+            .
+          </Text>
+        </Box>
       </Box>
     </Grid>
   </Layout>
