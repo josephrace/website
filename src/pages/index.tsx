@@ -9,10 +9,10 @@ import Emoji from '../components/Emoji';
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Full-Stack Developer" />
-    <Grid columns={[1, null, null, '4fr 1fr']} mb={5}>
+    <Grid columns={[1, null, null, '4fr 1fr']} mb={[4, 5]}>
       <Text
         sx={{
-          fontSize: [6, 7, null, 8],
+          fontSize: [5, 6, 7, 8],
           lineHeight: 'heading',
           fontFamily: 'heading',
         }}
@@ -28,10 +28,10 @@ const IndexPage: React.FC = () => (
       <Box>
         <Box sx={{ mb: 3 }}>
           <Text mb={3}>
-            As a full-stack developer I am passionate about building websites
-            and applications that have a meaningful impact on people's lives -
-            from helping charities reach their audiences to providing tools for
-            aspiring musicians.
+            As a full-stack developer, I am passionate about building websites
+            and applications that have a meaningful impact on people&rsquo;s
+            lives &mdash; from helping charities reach their audiences to
+            providing tools for aspiring musicians.
           </Text>
           <Text mb={3}>
             <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">

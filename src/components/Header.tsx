@@ -32,7 +32,7 @@ const Header: React.FC = () => {
       sx={{
         justifyContent: 'space-between',
         alignItems: 'center',
-        my: 4,
+        my: [3, 4],
       }}
     >
       <Link to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>

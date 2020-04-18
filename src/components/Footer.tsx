@@ -7,12 +7,19 @@ import Emoji from '../components/Emoji';
 const Footer: React.FC = () => (
   <Flex sx={{ justifyContent: 'flex-end', py: 4 }}>
     <Text>
-      Find me on{' '}
+      <Emoji label="Detective" symbol="🕵🏻‍♂️" /> Find me on{' '}
       <OutboundLink
         sx={{ color: 'inherit' }}
         href="https://github.com/josephrace"
       >
         Github
+      </OutboundLink>
+      ,{' '}
+      <OutboundLink
+        sx={{ color: 'inherit' }}
+        href="https://stackoverflow.com/users/1391229/josephrace"
+      >
+        Stack Overflow
       </OutboundLink>{' '}
       or{' '}
       <OutboundLink
