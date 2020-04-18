@@ -27,9 +27,7 @@ const IndexPage: React.FC = () => (
             As a full-stack developer I am passionate about building websites
             and applications that have a meaningful impact on people's lives -
             from helping charities reach their audiences to providing
-            inspiration for aspiring musicians. The words above represent a few
-            things that I value and strive for when building for the web and
-            working in teams.
+            inspiration for aspiring musicians.
           </Text>
           <Text mb={3}>
             <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">
