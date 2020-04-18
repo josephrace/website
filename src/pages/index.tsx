@@ -25,9 +25,11 @@ const IndexPage: React.FC = () => (
         <Box id="about" sx={{ mb: 5 }}>
           <Text mb={3}>
             As a full-stack developer I am passionate about building websites
-            and applications that have a meaningful impact on people's lives.
-            The words above represent a few things that I value and strive for
-            in building for the web and working in teams.
+            and applications that have a meaningful impact on people's lives -
+            from helping charities reach their audiences to providing
+            inspiration for aspiring musicians. The words above represent a few
+            things that I value and strive for when building for the web and
+            working in teams.
           </Text>
           <Text mb={3}>
             <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">
@@ -44,8 +46,8 @@ const IndexPage: React.FC = () => (
             <OutboundLink sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
             </OutboundLink>{' '}
-            are a few of the things I have been enjoyed working with over the
-            last few years. This site was built with{' '}
+            are some of the tools I have enjoyed working with over the last few
+            years. This site was built with{' '}
             <OutboundLink
               sx={{ color: 'inherit' }}
               href="https://www.gatsbyjs.org/"
