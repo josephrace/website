@@ -32,12 +32,11 @@ const Header: React.FC = () => {
       sx={{
         justifyContent: 'space-between',
         alignItems: 'center',
-        mt: 4,
-        mb: 5,
+        my: 4,
       }}
     >
       <Link to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
-        {siteMetadata.title} - {siteMetadata.description}
+        {siteMetadata.title}
       </Link>
       <Button onClick={toggleColorMode} sx={{ py: 1, fontFamily: 'body' }}>
         {colorMode === 'default' ? 'Dark' : 'Light'}

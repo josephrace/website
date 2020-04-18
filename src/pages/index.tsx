@@ -4,6 +4,7 @@ import { Text, Box, Grid, jsx } from 'theme-ui';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import Emoji from '../components/Emoji';
 
 const IndexPage: React.FC = () => (
   <Layout>
@@ -16,18 +17,21 @@ const IndexPage: React.FC = () => (
           fontFamily: 'heading',
         }}
       >
-        Usability <strong>accessibility</strong> 🥑 <strong>inclusivity</strong>{' '}
-        innovation impact sharing equality <strong>openness</strong>
+        Usability <strong>accessibility</strong>{' '}
+        <Emoji label="Avocado" symbol="🥑" /> <strong>inclusivity</strong>{' '}
+        <Emoji label="Wizard" symbol="🧙‍♂️" /> innovation impact{' '}
+        <strong>sharing</strong> <Emoji label="Squid" symbol="🦑" /> equality{' '}
+        <strong>openness</strong>
       </Text>
     </Grid>
     <Grid columns={[1, null, 2]}>
       <Box>
-        <Box id="about" sx={{ mb: 5 }}>
+        <Box sx={{ mb: 3 }}>
           <Text mb={3}>
             As a full-stack developer I am passionate about building websites
             and applications that have a meaningful impact on people's lives -
-            from helping charities reach their audiences to providing
-            inspiration for aspiring musicians.
+            from helping charities reach their audiences to providing tools for
+            aspiring musicians.
           </Text>
           <Text mb={3}>
             <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">
@@ -44,7 +48,7 @@ const IndexPage: React.FC = () => (
             <OutboundLink sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
             </OutboundLink>{' '}
-            are some of the tools I have enjoyed working with over the last few
+            are some of the things I have enjoyed working with over the last few
             years. This site was built with{' '}
             <OutboundLink
               sx={{ color: 'inherit' }}

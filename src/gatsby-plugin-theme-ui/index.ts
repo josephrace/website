@@ -15,7 +15,7 @@ export default {
     heading: '"PT Serif", serif',
   },
   lineHeights: {
-    body: 1.5,
+    body: 1.6,
     heading: 1.2,
   },
   sizes: {

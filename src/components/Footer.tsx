@@ -2,11 +2,12 @@
 import React from 'react';
 import { Flex, Text, jsx } from 'theme-ui';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import Emoji from '../components/Emoji';
 
 const Footer: React.FC = () => (
   <Flex sx={{ justifyContent: 'flex-end', py: 4 }}>
     <Text>
-      🕵🏻‍♂️ Find me on{' '}
+      Find me on{' '}
       <OutboundLink
         sx={{ color: 'inherit' }}
         href="https://github.com/josephrace"
