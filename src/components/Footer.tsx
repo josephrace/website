@@ -8,10 +8,7 @@ const Footer: React.FC = () => (
   <Flex sx={{ justifyContent: 'flex-end', py: 4 }}>
     <Text>
       <Emoji label="Detective" symbol="🕵🏻‍♂️" /> Find me on{' '}
-      <OutboundLink
-        sx={{ color: 'inherit' }}
-        href="https://github.com/josephrace"
-      >
+      <OutboundLink sx={{ color: 'inherit' }} href="https://github.com/josephrace">
         Github
       </OutboundLink>
       ,{' '}
@@ -22,10 +19,7 @@ const Footer: React.FC = () => (
         Stack Overflow
       </OutboundLink>{' '}
       or{' '}
-      <OutboundLink
-        sx={{ color: 'inherit' }}
-        href="https://www.linkedin.com/in/josephrace"
-      >
+      <OutboundLink sx={{ color: 'inherit' }} href="https://www.linkedin.com/in/josephrace">
         LinkedIn
       </OutboundLink>{' '}
     </Text>

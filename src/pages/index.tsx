@@ -17,9 +17,8 @@ const IndexPage: React.FC = () => (
           fontFamily: 'heading',
         }}
       >
-        Usability <strong>accessibility</strong>{' '}
-        <Emoji label="Avocado" symbol="🥑" /> <strong>inclusivity</strong>{' '}
-        <Emoji label="Wizard" symbol="🧙‍♂️" /> innovation impact{' '}
+        Usability <strong>accessibility</strong> <Emoji label="Avocado" symbol="🥑" />{' '}
+        <strong>inclusivity</strong> <Emoji label="Wizard" symbol="🧙‍♂️" /> impact{' '}
         <strong>sharing</strong> <Emoji label="Squid" symbol="🦑" /> equality{' '}
         <strong>openness</strong>
       </Text>
@@ -28,46 +27,33 @@ const IndexPage: React.FC = () => (
       <Box>
         <Box sx={{ mb: 3 }}>
           <Text mb={3}>
-            As a full-stack developer, I am passionate about building websites
-            and applications that have a meaningful impact on people&rsquo;s
-            lives &mdash; from helping charities reach their audiences to
-            providing tools for aspiring musicians.
+            As a full-stack developer, I am passionate about building websites and applications that
+            have a meaningful impact on people&rsquo;s lives &mdash; from helping charities reach
+            their audiences to providing tools for aspiring musicians.
           </Text>
           <Text mb={3}>
             <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">
               React
             </OutboundLink>
             ,{' '}
-            <OutboundLink
-              sx={{ color: 'inherit' }}
-              href="https://www.typescriptlang.org/"
-            >
+            <OutboundLink sx={{ color: 'inherit' }} href="https://www.typescriptlang.org/">
               TypeScript
             </OutboundLink>{' '}
             &amp;{' '}
             <OutboundLink sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
             </OutboundLink>{' '}
-            are some of the things I have enjoyed working with over the last few
-            years. This site was built with{' '}
-            <OutboundLink
-              sx={{ color: 'inherit' }}
-              href="https://www.gatsbyjs.org/"
-            >
+            are some of the things I have enjoyed working with over the last few years. This site
+            was built with{' '}
+            <OutboundLink sx={{ color: 'inherit' }} href="https://www.gatsbyjs.org/">
               Gatsby
             </OutboundLink>{' '}
             using{' '}
-            <OutboundLink
-              sx={{ color: 'inherit' }}
-              href="https://theme-ui.com/"
-            >
+            <OutboundLink sx={{ color: 'inherit' }} href="https://theme-ui.com/">
               Theme UI
             </OutboundLink>{' '}
             and is hosted on{' '}
-            <OutboundLink
-              sx={{ color: 'inherit' }}
-              href="https://www.netlify.com/"
-            >
+            <OutboundLink sx={{ color: 'inherit' }} href="https://www.netlify.com/">
               Netlify
             </OutboundLink>
             .
