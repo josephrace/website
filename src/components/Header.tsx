@@ -20,7 +20,7 @@ const Header: React.FC = () => {
   const [colorMode, setColorMode] = useColorMode();
 
   const toggleColorMode = () => {
-    if (colorMode === 'default') {
+    if (['default', 'light'].includes(colorMode)) {
       setColorMode('dark');
     } else {
       setColorMode('default');
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
         {siteMetadata.title}
       </Link>
       <Button onClick={toggleColorMode} sx={{ py: 1, fontFamily: 'body' }}>
-        {colorMode === 'default' ? 'Dark' : 'Light'}
+        {['default', 'light'].includes(colorMode) ? 'Dark' : 'Light'}
       </Button>
     </Flex>
   );
