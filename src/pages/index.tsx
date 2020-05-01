@@ -19,7 +19,7 @@ const IndexPage: React.FC = () => (
       >
         Usability <strong>accessibility</strong> <Emoji label="Avocado" symbol="🥑" />{' '}
         <strong>inclusivity</strong> <Emoji label="Wizard" symbol="🧙‍♂️" /> impact{' '}
-        <strong>sharing</strong> <Emoji label="Squid" symbol="🦑" /> equality <strong>open</strong>
+        <strong>sharing</strong> <Emoji label="Squid" symbol="🦑" /> equality <strong>openness</strong>
       </Text>
     </Grid>
     <Grid columns={[1, null, 2]}>
