@@ -3,10 +3,10 @@ export default {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   colors: {
     text: '#111',
-    background: '#f4f4f4',
+    background: '#fafafa',
     modes: {
       dark: {
-        text: '#f4f4f4',
+        text: '#fafafa',
         background: '#111',
       },
     },
