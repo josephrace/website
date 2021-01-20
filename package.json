@@ -1,8 +1,8 @@
 {
-  "name": "josephrace",
-  "description": "Personal website of Joseph Race",
+  "name": "joerace",
+  "description": "Personal website of Joe Race",
   "version": "1.0.0",
-  "author": "Joseph Race",
+  "author": "Joe Race",
   "dependencies": {
     "gatsby": "^2.24.91",
     "gatsby-link": "^2.4.16",
