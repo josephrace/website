@@ -17,10 +17,9 @@ const IndexPage: React.FC = () => (
           fontFamily: 'heading',
         }}
       >
-        Usability <strong>accessibility</strong> <Emoji label="Avocado" symbol="🥑" />{' '}
-        <strong>inclusivity</strong> <Emoji label="Wizard" symbol="🧙‍♂️" /> impact{' '}
-        <strong>sharing</strong> <Emoji label="Squid" symbol="🦑" /> equality{' '}
-        <strong>openness</strong>
+        Sustainable <strong>accessible</strong> <Emoji label="Avocado" symbol="🥑" />{' '}
+        <strong>inclusive</strong> <Emoji label="Wizard" symbol="🧙‍♂️" /> impactful{' '}
+        <strong>shared</strong> <Emoji label="Squid" symbol="🦑" /> equal <strong>open</strong>
       </Text>
     </Grid>
     <Grid columns={[1, null, 2]}>

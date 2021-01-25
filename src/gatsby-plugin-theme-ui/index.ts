@@ -12,7 +12,7 @@ export default {
     },
   },
   fonts: {
-    body: '"Work Sans", sans-serif',
+    body: 'sans-serif',
     heading: '"PT Serif", serif',
   },
   lineHeights: {
