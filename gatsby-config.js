@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: ['Work Sans', 'PT Serif'],
+        fonts: ['PT Serif:400'],
       },
     },
     {
