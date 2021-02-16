@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from 'react';
 import { Text, Box, Grid, jsx } from 'theme-ui';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Emoji from '../components/Emoji';
@@ -31,30 +30,30 @@ const IndexPage: React.FC = () => (
             their audiences to providing tools for aspiring musicians.
           </Text>
           <Text mb={3}>
-            <OutboundLink sx={{ color: 'inherit' }} href="https://reactjs.org/">
+            <a sx={{ color: 'inherit' }} href="https://reactjs.org/">
               React
-            </OutboundLink>
+            </a>
             ,{' '}
-            <OutboundLink sx={{ color: 'inherit' }} href="https://www.typescriptlang.org/">
+            <a sx={{ color: 'inherit' }} href="https://www.typescriptlang.org/">
               TypeScript
-            </OutboundLink>{' '}
+            </a>{' '}
             &amp;{' '}
-            <OutboundLink sx={{ color: 'inherit' }} href="https://graphql.org/">
+            <a sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
-            </OutboundLink>{' '}
+            </a>{' '}
             are some of the things I have enjoyed working with over the last few years. This site
             was built with{' '}
-            <OutboundLink sx={{ color: 'inherit' }} href="https://www.gatsbyjs.org/">
+            <a sx={{ color: 'inherit' }} href="https://www.gatsbyjs.org/">
               Gatsby
-            </OutboundLink>{' '}
+            </a>{' '}
             using{' '}
-            <OutboundLink sx={{ color: 'inherit' }} href="https://theme-ui.com/">
+            <a sx={{ color: 'inherit' }} href="https://theme-ui.com/">
               Theme UI
-            </OutboundLink>{' '}
+            </a>{' '}
             and is hosted on{' '}
-            <OutboundLink sx={{ color: 'inherit' }} href="https://www.netlify.com/">
+            <a sx={{ color: 'inherit' }} href="https://www.netlify.com/">
               Netlify
-            </OutboundLink>
+            </a>
             .
           </Text>
         </Box>
