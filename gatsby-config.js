@@ -15,12 +15,5 @@ module.exports = {
         fonts: ['PT Serif:400'],
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-38769385-1',
-        respectDNT: true,
-      },
-    },
   ],
 };
