@@ -25,9 +25,9 @@ const IndexPage: React.FC = () => (
       <Box>
         <Box sx={{ mb: 3 }}>
           <Text mb={3}>
-            As a full-stack developer, I am passionate about building websites and applications that
-            have a meaningful impact on people&rsquo;s lives &mdash; from helping charities reach
-            their audiences to providing tools for aspiring musicians.
+            As a full-stack developer, I am passionate about working on meaningful and sustainable
+            web projects &mdash; from helping charities reach their audiences to providing tools for
+            aspiring musicians.
           </Text>
           <Text mb={3}>
             <a sx={{ color: 'inherit' }} href="https://reactjs.org/">
