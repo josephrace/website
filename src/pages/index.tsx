@@ -16,17 +16,17 @@ const IndexPage: React.FC = () => (
           fontFamily: 'heading',
         }}
       >
-        Sustainable <strong>accessible</strong> <Emoji label="Avocado" symbol="🥑" />{' '}
-        <strong>inclusive</strong> <Emoji label="Wizard" symbol="🧙‍♂️" /> impactful{' '}
-        <strong>shared</strong> <Emoji label="Squid" symbol="🦑" /> equal <strong>open</strong>
+        Sustainable <Emoji label="Tree" symbol="🌳" /> <strong>accessible</strong>{' '}
+        <strong>inclusive</strong> impactful <Emoji label="Squid" symbol="🦑" />{' '}
+        <strong>shared</strong> equal <strong>open</strong> <Emoji label="Avocado" symbol="🥑" />
       </Text>
     </Grid>
     <Grid columns={[1, null, 2]}>
       <Box>
         <Box sx={{ mb: 3 }}>
           <Text mb={3}>
-            As a full-stack developer, I am passionate about working on meaningful and sustainable
-            web projects &mdash; from helping charities reach their audiences to providing tools for
+            As a full-stack developer, I am passionate about building meaningful and sustainable web
+            projects &mdash; from helping charities reach their audiences to providing tools for
             aspiring musicians.
           </Text>
           <Text mb={3}>
@@ -41,8 +41,8 @@ const IndexPage: React.FC = () => (
             <a sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
             </a>{' '}
-            are some of the things I have enjoyed working with over the last few years. This site
-            was built with{' '}
+            are some of the tools I have enjoyed working with over the last few years. This site was
+            built with{' '}
             <a sx={{ color: 'inherit' }} href="https://www.gatsbyjs.org/">
               Gatsby
             </a>{' '}
