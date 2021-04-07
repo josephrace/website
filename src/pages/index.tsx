@@ -24,12 +24,12 @@ const IndexPage: React.FC = () => (
     <Grid columns={[1, null, 2]}>
       <Box>
         <Box sx={{ mb: 3 }}>
-          <Text mb={3}>
+          <Text mb={3} as="p">
             As a full-stack developer, I am passionate about building meaningful and sustainable web
             projects &mdash; from helping charities reach their audiences to providing tools for
             aspiring musicians.
           </Text>
-          <Text mb={3}>
+          <Text mb={3} as="p">
             <a sx={{ color: 'inherit' }} href="https://reactjs.org/">
               React
             </a>
