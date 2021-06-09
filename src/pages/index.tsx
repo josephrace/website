@@ -25,7 +25,7 @@ const IndexPage: React.FC = () => (
       <Box>
         <Box sx={{ mb: 3 }}>
           <Text mb={3} as="p">
-            As a full-stack developer, I am passionate about building meaningful and sustainable web
+            As a full-stack developer, I am dedicated to building meaningful and sustainable web
             projects &mdash; from helping charities reach their audiences to providing tools for
             aspiring musicians.
           </Text>
