@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Joseph Race',
     description:
-      'Full-Stack Developer passionate about working on meaningful and sustainable web projects.',
+      'Full-Stack Developer dedicated to working on meaningful and sustainable web projects.',
   },
   plugins: [
     'gatsby-plugin-typescript',
