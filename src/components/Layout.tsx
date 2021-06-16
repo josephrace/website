@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Flex, Box } from 'theme-ui';
 import Header from './Header';
 import Footer from './Footer';

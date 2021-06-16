@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import React from 'react';
-import { Text, Box, Grid, jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Text, Box, Grid } from 'theme-ui';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Emoji from '../components/Emoji';
@@ -26,7 +25,7 @@ const IndexPage: React.FC = () => (
         <Box sx={{ mb: 3 }}>
           <Text mb={3} as="p">
             Full-Stack Developer driven by working on projects with purpose — from helping charities
-            reach their audiences to recognising children’s achievements in class — in a way that is
+            reach their audiences to supporting children’s progression in class — in a way that is
             sustainable, accessible and inclusive.
           </Text>
           <Text mb={3} as="p">
@@ -45,8 +44,10 @@ const IndexPage: React.FC = () => (
             <a sx={{ color: 'inherit' }} href="https://www.serverless.com/">
               Serverless
             </a>{' '}
-            are some of the tools I have enjoyed working with over the last few years. This site was
-            built with{' '}
+            are some of the tools I have enjoyed working with over the last few years.
+          </Text>
+          <Text>
+            This site was built with{' '}
             <a sx={{ color: 'inherit' }} href="https://www.gatsbyjs.org/">
               Gatsby
             </a>{' '}

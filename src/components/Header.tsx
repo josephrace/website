@@ -1,7 +1,6 @@
-/** @jsx jsx */
-import React from 'react';
+/** @jsxImportSource theme-ui */
 import { useStaticQuery, graphql, Link } from 'gatsby';
-import { Button, Flex, useColorMode, jsx } from 'theme-ui';
+import { Button, Flex, useColorMode } from 'theme-ui';
 
 const Header: React.FC = () => {
   const {

@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import React from 'react';
-import { Flex, Text, jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Flex, Text } from 'theme-ui';
 import Emoji from '../components/Emoji';
 
 const Footer: React.FC = () => (
