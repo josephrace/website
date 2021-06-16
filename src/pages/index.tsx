@@ -8,7 +8,7 @@ import Emoji from '../components/Emoji';
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Full-Stack Developer" />
-    <Grid columns={[1, null, null, '4fr 1fr']} mb={[4, 5]}>
+    <Grid columns={[1, null, null, '4fr 2fr']} mb={[4, 5]}>
       <Text
         sx={{
           fontSize: [5, 6, 7, 8],
@@ -17,17 +17,17 @@ const IndexPage: React.FC = () => (
         }}
       >
         Sustainable <Emoji label="Tree" symbol="🌳" /> <strong>accessible</strong>{' '}
-        <strong>inclusive</strong> impactful <Emoji label="Squid" symbol="🦑" />{' '}
-        <strong>shared</strong> equal <strong>open</strong> <Emoji label="Avocado" symbol="🥑" />
+        <strong>inclusive</strong> <Emoji label="Squid" symbol="🦑" /> impactful equal{' '}
+        <strong>open</strong> <Emoji label="Avocado" symbol="🥑" />
       </Text>
     </Grid>
     <Grid columns={[1, null, 2]}>
       <Box>
         <Box sx={{ mb: 3 }}>
           <Text mb={3} as="p">
-            As a full-stack developer, I am dedicated to building meaningful and sustainable web
-            projects &mdash; from helping charities reach their audiences to providing tools for
-            aspiring musicians.
+            Full-Stack Developer driven by working on projects with purpose — from helping charities
+            reach their audiences to recognising children’s achievements in class — in a way that is
+            sustainable, accessible and inclusive.
           </Text>
           <Text mb={3} as="p">
             <a sx={{ color: 'inherit' }} href="https://reactjs.org/">
@@ -41,18 +41,18 @@ const IndexPage: React.FC = () => (
             <a sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
             </a>{' '}
+            and{' '}
+            <a sx={{ color: 'inherit' }} href="https://www.serverless.com/">
+              Serverless
+            </a>{' '}
             are some of the tools I have enjoyed working with over the last few years. This site was
             built with{' '}
             <a sx={{ color: 'inherit' }} href="https://www.gatsbyjs.org/">
               Gatsby
             </a>{' '}
-            using{' '}
+            and{' '}
             <a sx={{ color: 'inherit' }} href="https://theme-ui.com/">
               Theme UI
-            </a>{' '}
-            and is hosted on{' '}
-            <a sx={{ color: 'inherit' }} href="https://www.netlify.com/">
-              Netlify
             </a>
             .
           </Text>
