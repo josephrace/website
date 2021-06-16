@@ -25,8 +25,7 @@ const IndexPage: React.FC = () => (
         <Box sx={{ mb: 3 }}>
           <Text mb={3} as="p">
             Full-Stack Developer driven by working on projects with purpose — from helping charities
-            reach their audiences to supporting children’s progression in class — in a way that is
-            sustainable, accessible and inclusive.
+            reach their audiences to providing tools for aspiring musicians.
           </Text>
           <Text mb={3} as="p">
             <a sx={{ color: 'inherit' }} href="https://reactjs.org/">
