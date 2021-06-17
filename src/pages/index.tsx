@@ -34,8 +34,8 @@ const IndexPage: React.FC = () => (
             ,{' '}
             <a sx={{ color: 'inherit' }} href="https://www.typescriptlang.org/">
               TypeScript
-            </a>{' '}
-            &amp;{' '}
+            </a>
+            ,{' '}
             <a sx={{ color: 'inherit' }} href="https://graphql.org/">
               GraphQL
             </a>{' '}
